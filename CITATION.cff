@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this skill, please cite the article below."
+title: "Excel Audit Data Cleaning"
+type: software
+authors:
+  - family-names: Pan
+    given-names: Gang
+  - family-names: Wang
+    given-names: Li
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/GangPan94/excel-audit-data-cleaning"
+keywords:
+  - excel
+  - chatgpt
+  - audit
+  - accounting
+  - data cleaning
+  - reconciliation
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Pan
+      given-names: Gang
+    - family-names: Wang
+      given-names: Li
+  title: "Using an Excel Agent to Clean, Validate, and Reconcile Data"
+  journal: "Journal of Accountancy"
+  volume: 242
+  issue: 4
+  start: 20
+  end: 27
+  month: 10
+  year: 2026
+  url: "https://editions.journalofaccountancy.com/article/Using+an+Excel+agent+to+clean%2C+validate%2C+and+reconcile+data/5207267/869709/article.html"
