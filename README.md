@@ -4,6 +4,8 @@ A reusable skill for cleaning and reconciling audit, finance, and accounting dat
 
 The workflow preserves source data, inspects the workbook, writes a proposed `Cleaning_Plan` worksheet, and waits for approval before changing data. After approval, it documents transformations, reconciles results to user-provided controls, investigates differences, and writes a `Final_Summary` worksheet.
 
+> **Please review the [disclaimer](#disclaimer) and [MIT License](LICENSE) included with this skill before use.**
+
 ## Background
 
 This skill accompanies the article [Using an Excel Agent to Clean, Validate, and Reconcile Data](https://editions.journalofaccountancy.com/article/Using+an+Excel+agent+to+clean%2C+validate%2C+and+reconcile+data/5207267/869709/article.html) by Gang Pan and Li Wang, *Journal of Accountancy*, 242(4), 20–27, October 2026.
@@ -33,7 +35,19 @@ Tested in July 2026 using ChatGPT for Excel in Microsoft Excel for Mac on macOS 
 
 ## Disclaimer
 
-This skill helps prepare data for reconciliation review. It is not audit advice and does not establish compliance with AS 1105 or any other standard. Users and engagement teams remain responsible for verifying results against source records and applying professional judgment. Do not share confidential client data when reporting issues.
+### Purpose and professional advice
+
+This skill helps prepare data for reconciliation review. This skill and its accompanying materials are provided for educational and illustrative purposes. They do not constitute accounting, auditing, tax, legal, or other professional advice, and their use does not establish a professional engagement or adviser–client relationship with the authors. It is not audit advice and does not establish compliance with AS 1105 or any other standard. Users and engagement teams remain responsible for verifying results against source records and applying professional judgment. Do not share confidential client data when reporting issues.
+
+### User responsibility and data protection
+
+AI-generated outputs may contain errors, omissions, fabricated information, or unintended changes to workbooks. Users should retain unchanged backups, test the skill on copies, and independently verify all outputs and modifications before relying on them. Users are responsible for determining suitability for their circumstances and satisfying applicable professional, legal, organizational, and data-security requirements.
+
+### No ongoing support and third-party modifications
+
+The authors undertake no obligation to provide technical support, maintenance, updates, corrections, or continued availability or compatibility. Results reported in the article reflect the tested circumstances and do not guarantee future performance. The authors are not responsible for any third-party modifications and their outputs.
+
+### Why results may differ
 
 Your results may differ from those described in the article. Common reasons include:
 
@@ -45,6 +59,8 @@ Your results may differ from those described in the article. Common reasons incl
 - **Prompt wording.** Vague requests, or requests that skip the approval step, can lead to different behavior.
 - **How the skill is loaded.** Pasting the skill as custom instructions, uploading it as a file, or loading it as a skill may affect how consistently it is applied.
 - **Run-to-run variation.** AI models are not deterministic; the same prompt on the same workbook can produce different plans or outputs.
+
+### Review before relying on results
 
 Always review the `Cleaning_Plan` before approving it and check `Modifications_Log` and `Final_Summary` against the source data.
 

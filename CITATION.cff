@@ -7,7 +7,7 @@ authors:
     given-names: Gang
   - family-names: Wang
     given-names: Li
-version: 1.0.0
+version: 1.0.1
 license: MIT
 repository-code: "https://github.com/GangPan94/excel-audit-data-cleaning"
 keywords:

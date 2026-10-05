@@ -1,6 +1,7 @@
 ---
 name: excel-audit-data-cleaning
 description: Use this skill whenever the user wants to clean, validate, prepare, normalize, reconcile, or document Excel data for audit, finance, accounting, ledger, trial balance, transaction, or AS 1105 evidence workflows in ChatGPT with an Excel plugin. Use it for dirty spreadsheets, GL exports, subsidiary ledgers, trial balances, debit/credit cleanup, completeness and accuracy checks, audit trails, source-data preservation, or reconciliation work. It follows a native-Excel-only workflow: inspect first, write a `Cleaning_Plan` worksheet, ask for approval, then clean, document, reconcile, and apply final quality gates.
+license: MIT. See LICENSE and the disclaimer in README.md (https://github.com/GangPan94/excel-audit-data-cleaning#disclaimer).
 ---
 
 # Excel Audit Data Cleaning
